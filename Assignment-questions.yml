@@ -1,51 +1,30 @@
-  1. What is git commit?:
-  2. What is git stash?:
-  3. What are the steps to unstage files and discard the changes in working directory?:
-  4. What is git branch?:
-  5. How do you check if git is insalled?:
-  6. How do you know the status of your local repository and what other information does it show?:
-  7. What are the different ways to add/stage files/changes to the git repository?:
-  8. Can we combine commands when working with commands in git? How?:
-  9. What is the difference between git pull and git fetch?:
-  10. How do you revert a previous commit in git?:
-  11. What is git cherry-pick?:
-  12. What is the function of git push?:
-  13. What is the difference between git checkout and git clone?:
-  14. What is the difference between fork, branch and clone?:
-  15. What is the advantages of using git?:
-  16. What is git rebase and how can it be used to resolve conflict in a feature branch before the merge?:
-  17. What are the differences, advantages, and disadvantages between git rebase and git merge?:
-  18. When should we use git stash?:
-  19. What is the function of git diff in git?:
+  
   20. How do you resolve conflicts in git?:
+  Ans #20
+    To resolve conflict in git, you choose the correct line of code you want. Then you delete everything else.
   21. Explain the steps of git local workflow:
+  Ans #21
+    The steps of git local work flow are:
+     1- git add .
+     2- git commit -m "commit message"
+     3- git push
   22. How do you view the commit history of the repository?:
+  Ans #22
+    To view the commit history we use the command git log. This will show all the commits and the most recent commit will be at the top showing "head"  
   23. How do you prevent git from pushing important files, secrets, configuration files, and debug log files to the remote repository?:
+  Ans #23
+     In order to prevent git from pushing important, secrets, configuration and debud log files,we create a new file and name it .gitignore then store all these files into it.
   24. How do you setup and use SSH authentication to connect with github/remote repository?:
+  Ans #24
+     We create the ssh-keygen which will create a hidden folder called .ssh
+     cd into the .ssh/ and ls into the working directory, this will show the public and private id. cat into the public id and copy the entire content, then paste it into the new ssh key open page in the remote repository.
+     this will create a connection between the local and remote repository. 
   25. What are git hooks?:
+  Ans #25
+     Git hooks are scripts that run automatically every time a particular event occurs in a Git repository. They let you customize Git’s internal behavior and trigger customizable actions at key points in the development life cycle.
+    
 
-
-
-Jude 1
-  1. In your organisation, what is your branching strategy?:
-  2. Tell me about your git environment?:
 
 Bijoux 2
-  1. In your organisation, what is your branching strategy?:
-  2. Tell me about your git environment?:
-
-Danielle 3
-  1. In your organisation, what is your branching strategy?:
-  2. Tell me about your git environment?:
-
-Charity 4
-  1. In your organisation, what is your branching strategy?:
-  2. Tell me about your git environment?:
-
-Tataw 5
-  1. In your organisation, what is your branching strategy?:
-  2. Tell me about your git environment?:
-
-Emily 6
   1. In your organisation, what is your branching strategy?:
   2. Tell me about your git environment?:
