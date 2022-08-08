@@ -8,11 +8,16 @@
   8. Can we combine commands when working with commands in git? How?:
   9. What is the difference between git pull and git fetch?:
   10. How do you revert a previous commit in git?:
-  11. What is git cherry-pick?:
+  11. What is git cherry-pick?: 
+      Ans: Git cherry-pick is used to choose a commit from one branch and apply to another. It introduces particular commits from one branch within a repository into a different branch
   12. What is the function of git push?:
+      Ans: Git push is used to move codes from a local repository to a remote repository
   13. What is the difference between git checkout and git clone?:
+      Ans: Git checkout is used to creat a new branch in a terminal and also move the current file into that branch. Git clone is used to clone or reproduce a repository already existing in github into a terminal
   14. What is the difference between fork, branch and clone?:
+      Ans: Forking creates a copy of the original repository on the github account. cloning creates a copy of the original repository on the local machine. Forking creates a full copy of the original repository without affecting the main repository and the  copy sits in the git account whereas branching creates a branch to encapsulate your changes 
   15. What is the advantages of using git?:
+      Ans: Git allows several developers to work on the same case simultaneously. The codes are hosted centrally and every developer has access to the entire copy of the codes locally 
   16. What is git rebase and how can it be used to resolve conflict in a feature branch before the merge?:
   17. What are the differences, advantages, and disadvantages between git rebase and git merge?:
   18. When should we use git stash?:
@@ -36,7 +41,9 @@ Bijoux 2
 
 Danielle 3
   1. In your organisation, what is your branching strategy?:
+  Ans: There are 2 ways to create a branch. i can create one direclty in the github or gitlab accounts by clicking on the branches and then create new branch. on my local machine, i can use the command git checkout -b <branch name> to create a new branch. In this branch I will do all my bugfixes and then push them to the remote repository for review before merging with the main branch. 
   2. Tell me about your git environment?:
+  Ans: Git is a DevOps tool used for source code management. In the github account, i am able to create organizations, repositories, files, branches, and work on small or large projects. 
 
 Charity 4
   1. In your organisation, what is your branching strategy?:
